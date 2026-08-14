@@ -7,9 +7,13 @@ REM ============================================
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
+REM 切换到项目根目录（本脚本位于 build\ 下）
+cd /d "%~dp0.."
+
 echo.
 echo ============================================
 echo  AI Desktop Pet 打包工具
+echo  工作目录: %CD%
 echo ============================================
 echo.
 

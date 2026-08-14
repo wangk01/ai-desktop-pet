@@ -4,6 +4,9 @@ REM 需先安装 NSIS: https://nsis.sourceforge.io/
 chcp 65001 >nul
 setlocal
 
+REM 切换到项目根目录（本脚本位于 build\ 下）
+cd /d "%~dp0.."
+
 echo.
 echo ============================================
 echo  AI Desktop Pet 安装程序生成
